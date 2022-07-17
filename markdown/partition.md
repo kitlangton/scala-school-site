@@ -1,8 +1,6 @@
 partition
 
-Returns two lists; the first containing elements that satisfy that predicate, and the second containing the rest.
-
-It's all very cool!
+Returns **two** lists; the first containing elements that satisfy that predicate, and the second containing the rest.
 
 ```scala
 def partition(p: A => Boolean): (List[A], List[A])
