@@ -6,6 +6,8 @@ video-id: 730839597
 Returns a tuple of two new lists. The first list consists of elements taken from the head of the list until the predicate
 fails. The second list consists of the remaining elements.
 
+Essentially, this is a performant combination of [takeWhile](#list-method-takeWhile) and [dropWhile](#list-method-dropWhile).
+
 # SIGNATURE
 ```scala
 def span(p: A => Boolean): (List[A], List[A])
