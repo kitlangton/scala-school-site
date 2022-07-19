@@ -1,6 +1,6 @@
 partition
 
-HELLO! Splits the list into two parts, the first part containing the elements that satisfy the predicate, the second part containing the rest.
+Splits the list into two parts. The first part contains all the elements that satisfy the predicate, and the second part contains those that do not.
 
 ```scala
 def partition(p: A => Boolean): (List[A], List[A])

@@ -1,6 +1,7 @@
 span
 
-Returns two lists; the first takes elements from the head of the list until the predicate fails, and the second contains the rest. A combination of dropWhile and takeWhile.
+Returns a tuple of two new lists. The first list consists of elements taken from the head of the list until the predicate
+fails. The second list consists of the remaining elements.
 
 ```scala
 def span(p: A => Boolean): (List[A], List[A])
