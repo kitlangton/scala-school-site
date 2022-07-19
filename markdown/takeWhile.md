@@ -11,7 +11,7 @@ def takeWhile(p: A => Boolean): List[A]
 
 # EXAMPLE
 ```scala
-val list = List(1, 2, 4, 6, 3, 0, 8, 5)
+val list  = List(1, 2, 4, 6, 3, 0, 8, 5)
 val start = list.takeWhile(_ < 5)
 ---
 start = List(1, 2, 4)
